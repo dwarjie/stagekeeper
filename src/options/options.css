@@ -1,0 +1,44 @@
+.options {
+  max-width: 460px;
+  margin: 0 auto;
+  padding: 28px 18px;
+}
+
+.setting-card {
+  padding: 16px;
+}
+
+.setting-card label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.hint {
+  margin: 0 0 12px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.row .text-input {
+  width: 64px;
+}
+
+.unit {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.saved {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--ok);
+  font-weight: 600;
+}
