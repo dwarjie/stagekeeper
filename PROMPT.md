@@ -68,13 +68,13 @@ Target Chrome + Firefox from one codebase. Use `pnpm`.
 ### 5a. Reading branch identity from `window.odoo` (MAIN world)
 
 The current URL is like `/project/<project>/branches/<branchName>/<page>`, e.g.
-`/project/mega-print/branches/staging/history`.
+`/project/sample-project/branches/staging/history`.
 
 Branch + project data lives at:
 `window.odoo.__WOWL_DEBUG__.root.store`
 
-- `store.repo.project_name` → e.g. `"mega-print"`
-- `store.repo.name` → e.g. `"mega_print_odoo"`
+- `store.repo.project_name` → e.g. `"sample-project"`
+- `store.repo.name` → e.g. `"sample_project_odoo"`
 - `store.repo.branches[]` → each `{ id, name, stage, ... }`, e.g.
   `{ id: 3660248, name: "staging", stage: "staging" }`
 
@@ -114,8 +114,8 @@ keyed by `branch_id`. Each record:
 ```ts
 type TrackedBranch = {
 	branchId: number; // unique key
-	projectName: string; // "mega-print"
-	repoName: string; // "mega_print_odoo"
+	projectName: string; // "sample-project"
+	repoName: string; // "sample_project_odoo"
 	branchName: string; // "staging"
 	expirationDate: string; // "YYYY-MM-DD"
 	branchUrl: string; // odoo.sh URL to the branch
