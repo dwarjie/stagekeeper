@@ -3,10 +3,10 @@
     <h1>Stagekeeper</h1>
     <p>Never lose an Odoo.sh staging database again — track expiration dates and get warned before branches are dropped.</p>
     <div>
-        <a href="https://chromewebstore.google.com/detail/stagekeeper/CHROME_EXTENSION_ID">
-            <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/rating/CHROME_EXTENSION_ID?style=flat-square&logo=chromewebstore&logoColor=white&label=Rating&color=%233871e1"/>
+        <a href="https://chromewebstore.google.com/detail/stagekeeper/klccpnbcjmoakcijjgghkhekcngoednj">
+            <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/rating/klccpnbcjmoakcijjgghkhekcngoednj?style=flat-square&logo=chromewebstore&logoColor=white&label=Rating&color=%233871e1"/>
         </a>
-        <a href="https://addons.mozilla.org/en-US/firefox/addon/stage-keeper/">
+        <a href="https://addons.mozilla.org/en-US/firefox/addon/stagekeeper/">
             <img alt="Mozilla Add-on" src="https://img.shields.io/amo/rating/stage-keeper?style=flat-square&logo=firefoxbrowser&logoColor=white&label=Rating&color=%23ed6449"/>
         </a>
     </div>
@@ -116,4 +116,4 @@ Contributions, issues, and feature requests are welcome. Feel free to open an is
 
 This project was born out of losing a staging database one too many times after Odoo.sh shortened its retention window. Stagekeeper is intentionally simple: it only stores what you explicitly track, checks once a day, and never talks to anything but Odoo.sh itself.
 
-If you find it useful, consider leaving a review on the [Chrome Web Store](https://chromewebstore.google.com/detail/stagekeeper/CHROME_EXTENSION_ID) or [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/stage-keeper/) — it helps a lot. 🙏
+If you find it useful, consider leaving a review on the [Chrome Web Store](https://chromewebstore.google.com/detail/stagekeeper/klccpnbcjmoakcijjgghkhekcngoednj) or [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/stagekeeper/) — it helps a lot. 🙏
