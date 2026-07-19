@@ -3,7 +3,7 @@
     <h1>Stagekeeper</h1>
     <p>Never lose an Odoo.sh staging database again — track expiration dates and get warned before branches are dropped.</p>
     <div>
-        <a href="https://chromewebstore.google.com/detail/stagekeeper/klccpnbcjmoakcijjgghkhekcngoednj">
+        <a href="https://chromewebstore.google.com/detail/stagekeeper-%E2%80%94-odoosh-stag/klccpnbcjmoakcijjgghkhekcngoednj">
             <img alt="Chrome Web Store" src="https://img.shields.io/chrome-web-store/rating/klccpnbcjmoakcijjgghkhekcngoednj?style=flat-square&logo=chromewebstore&logoColor=white&label=Rating&color=%233871e1"/>
         </a>
         <a href="https://addons.mozilla.org/en-US/firefox/addon/stagekeeper/">
